@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Painel do Cliente</title>
+  <link href="../dist/styles/main.css" rel="stylesheet">
+</head>
+<body>
+<header>
+
+<div class="container-fluid">
+  <div class="row row-no-padding">
+  <nav class="navbar navbar-inverse">
+    <div class="navbar-header">
+      <div class="col-md-5 col-lg-6">
+      <button type="button" class="navbar-toggle navbar-left" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img src="assets/images/classiofertas_sem_fundo.png" alt="" style="padding-left: 37px;"></a>
+      </div>
+      <div class="col-md-7 col-lg-5">
+      
+    </div>
+    </div>
+  </nav>
+</div>
+</div>
+</header>
+
+  <section id="dashboard">
+    <div class="container-fluid">
+      <div class="row title">
+        <div class="col-xs-8 col-xs-offset-2 inner">
+          <h1>PAINEL DO CLIENTE</h1>
+        </div>
+      </div>
+      <div class="row my-list  navbar-collapse collapse">
+        <div class="col-xs-8 col-xs-offset-2">
+          <ul>
+            <li><a href="meus-dados.html">Meus dados</a></li>
+            <li ><a href="minhas-ofertas.html" >Minhas ofertas</a></li>
+            <li><a href="minhas-vendas.html">Minhas vendas</a></li>
+            <li class="active"><a href="indicacoes-de-amigos.html">Indicações de Amigos</a></li>
+            <li><a href="reclamacoes.html">Reclamações</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="" class="btn sair">SAIR</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="content">
+    <div class="container-fluid">
+      <div class="row content">
+        <div class="col-sm-8 col-sm-offset-2 inner">
+          <form action="" class="">
+            <div class="row">
+              <div class="col-xs-12">
+                <h2>MEUS DADOS</h2>
+              </div>
+                <div class="col-md-4 col-lg-3 ">
+                  <img src="assets/images/grey.png" alt="">
+                </div>
+                <div class="col-md-8 col-lg-8 text-left informations">
+                  <label for="">EMPRESA XPTO</label>
+                  <br>
+                  <label for="">CNPJ N</label>
+                  <br>
+                  <label for="">Inscrição Estadual</label>
+                  <br>
+                  <label for="">Inscrição Municipal</label>
+                  <br>
+                  <label for="">CEP n</label>
+                  <br>
+                  <label for="">Endereço</label>
+                  <br>
+                  <label for="">Cidade / Estado</label>
+                  <br>
+                  <label for="">Socio Proprietario</label>
+                  <br>
+                  <label for="">Contato: </label>
+                  <br>
+                </div>
+                <div class="col-md-12">
+                  <hr>
+                </div>
+              </div>
+              <!-- /MEUS DADOS -->
+              <div class="row ">
+              <div class="col-md-12">
+                <div class="cont formas">
+                <h2>FORMAS DE PAGAMENTO</h2>
+                 <ul>
+                  <li>
+                    <input type="radio" id="f-option" name="selector">
+                    <label for="f-option">Cartão de Crédito</label>
+
+                    <div class="check"></div>
+                  </li>
+
+                  <li>
+                    <input type="radio" id="s-option" name="selector">
+                    <label for="s-option">Cartão de Débito</label>
+
+                    <div class="check"><div class="inside"></div></div>
+                  </li>
+
+                  <li>
+                    <input type="radio" id="t-option" name="selector">
+                    <label for="t-option">Boleto</label>
+
+                    <div class="check"><div class="inside"></div></div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+              <div class="col-md-12">
+                <hr>
+              </div>
+            </div>
+            <!-- /FORMAS DE PAGAMENTO -->
+            <div class="row">
+              <div class="col-md-12">
+                <h2>ANALYTICS</h2>
+                <div class="ofertas">
+                  <span class="oferta-title">Ofertas Compradas</span>
+                  <span class="qt">0</span>
+                </div>
+                <div class="ofertas">
+                  <span class="oferta-title">Ofertas Pendentes</span>
+                  <span class="qt">0</span>
+                </div>
+                <div class="ofertas">
+                  <span class="oferta-title">Ofertas Canceladas</span>
+                  <span class="qt">0</span>
+                </div>
+              </div>
+                <div class="col-md-12">
+                  <hr>
+                </div>
+            </div>
+            <!-- ANALYTICS -->
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="buttons">
+                    <button class="btn btn-lg btn-success btn-dados">ALTERAR</button>
+                    <button class="btn btn-lg btn-danger btn-dados">REMOVER</button>
+                  </div>
+                </div>
+              </div>
+              <!-- BUTTONS -->
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- /CONTENT -->
+
+<footer id="footer">
+  <div class="text-center bottom-footer">
+    <span>Classi Ofertas 2017 LTDA Todos os direitos Reservados</span>
+  </div>
+</footer>
+
+<script src="../dist/scripts/jquery.js" type="application/javascript"></script>
+<script src="../dist/scripts/main.js" type="application/javascript"></script>
+</body>
+</html>

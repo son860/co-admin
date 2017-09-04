@@ -1,0 +1,101 @@
+#footer {
+  color: #fff;
+  font-size: 12px;
+}
+
+
+
+.upper-footer {
+  background: $bad-grey;
+  ul {
+    li {
+      float: none;
+      text-align: left;
+      line-height: 27px;
+    }
+  }
+  a {
+    text-decoration: none;
+    &:hover {
+      color: #fff;
+    }
+  }
+}
+.middle-footer {
+  background: $black;
+  padding: 22px 0;
+  .imgs {
+    display: inline-block;
+  }
+  #name, #email {
+    background: $bad-grey;
+    border: 1px solid $orange;
+    margin-right: -4px;
+    margin-top: 7px;
+
+  }
+  .send {
+    background: $orange;
+    border: 1px solid $orange;
+
+  }
+  #name::-webkit-input-placeholder,
+  #email::-webkit-input-placeholder
+  {
+    color:$orange;
+  }
+
+  #name:-moz-placeholder,
+  #email:-moz-placeholder
+  {
+    color:$orange;
+  }
+
+  #name::-moz-placeholder,
+  #email::-moz-placeholder
+  {
+    color:$orange;
+  }
+}
+.bottom-footer {
+  background: #ebebeb;
+  color: #222;
+  padding: 20px;
+
+}
+
+@media (max-width: $screen-xs-max) {
+  .middle-footer {
+    .imgs {
+      display: block;
+      width: 100% !important;
+      margin-top: ($grid-gutter-width / 2);
+      p {
+        margin-bottom: ($grid-gutter-width / 6);
+        font-size: 13px;
+      }
+      form {
+        input {
+          display: block;
+          width: 100% !important;
+          height: 30px;
+          line-height: 30px;
+          padding: 0 ($grid-gutter-width / 2);
+        }
+        .send {
+          margin-top: ($grid-gutter-width / 2);
+          width: 100%;
+          display: block;
+          height: 45px;
+          line-height: 45px;
+        }
+      }
+    }
+  }
+
+  .bottom-footer {
+    span {
+      font-size: 12px;
+    }
+  }
+}

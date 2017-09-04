@@ -1,0 +1,72 @@
+#anuncie {
+  .title {
+    .inner {
+      padding: 50px 13px 30px;
+    }
+  }
+}
+
+.btn-alerta {
+  font-size: 13px;
+  margin-top: 40px;
+  padding: 15px;
+}
+.btn-conta {
+  border: 1px solid #fff;
+  float: right;
+}
+.oferta-list {
+    ul {
+      margin-top: 0;
+    }
+    a {
+    font-size: 12px;
+    line-height: 4;
+  }
+}
+
+
+.pcent {
+  display: block;
+  text-align: center;
+  font-size: 4.6em;
+  color: $black-grey;
+}
+
+.progress {
+  background-color: #e5e5e5;
+}
+
+.progress-bar-warning {
+  background-color: $orange;
+}
+
+@media (min-width: $screen-sm-min) {
+  .btn-conta {
+    margin-right: ($grid-gutter-width * 2);
+    &:hover {
+      background-color: #fff;
+      color: $black;
+    }
+  }
+}
+
+@media (max-width: $screen-xs-max) {
+  #content {
+    hr {
+      display: none;
+    }
+
+    .inner {
+      padding: ($grid-gutter-width - 10) ($grid-gutter-width / 2);
+      text-align: center;
+      .heading {
+        margin-bottom: ($grid-gutter-width - 10);
+      }
+    }
+
+    .btn-alerta {
+      width: 100%;
+    }
+  }
+}

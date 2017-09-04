@@ -1,0 +1,37 @@
+#ofertas {
+  #content {
+    .content-title, .text-right {
+      margin: 20px 0 30px;
+    }
+
+    .content-title {
+      h2 {
+        margin: 0;
+      }
+    }
+
+    .text-right {
+      .btn-categorias {
+        margin-right: 30px;
+      }
+    }
+
+    .table {
+      tr {
+        td, th {
+          text-align: center;
+        }
+
+        td {
+          border-top: 1px solid #ddd;
+          border-bottom: none;
+        }
+        &:last-child {
+          td {
+            border-bottom: 1px solid #ddd;
+          }
+        }
+      }
+    }
+  }
+}

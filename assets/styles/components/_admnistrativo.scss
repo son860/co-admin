@@ -1,0 +1,17 @@
+@media (max-width: $screen-xs-max) {
+  .painel-administrativo {
+    #dashboard {
+      text-align: center;
+      h1 {
+        margin: 0;
+        font-size: 32px;
+      }
+    }
+
+    #content {
+      .inner {
+        text-align: left;
+      }
+    }
+  }
+}

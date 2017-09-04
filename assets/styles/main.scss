@@ -1,0 +1,35 @@
+@import "common/variables";
+
+// Automatically injected Bower dependencies via wiredep (never manually edit this block)
+// bower:scss
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+@import "common/global";
+@import "layouts/header";
+@import "layouts/home";
+@import "layouts/new-header";
+
+@import "common/variables";
+@import "components/meus-dados";
+@import "components/buttons";
+@import "components/footer";
+@import "components/anunciante";
+@import "components/admnistrativo";
+@import "components/relatorios";
+@import "components/publicidade";
+@import "components/minhas-ofertas";
+@import "components/indicacoes-de-amigos";
+@import "components/reclamacoes";
+@import "components/faq";
+@import "layouts/ofertas";
+@import "components/checkout";
+@import "components/total";
+@import "components/como-funciona";
+@import "components/nova-categoria";
+@import "components/ofertas-grid";
+@import "components/clientes";
+@import "layouts/ofertas";
+@import "layouts/ofertas-relacionadas";
+@import "layouts/especificacoes-de-midia";

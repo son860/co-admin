@@ -1,0 +1,14 @@
+.checkout .quantos {padding: 10px 5px;margin-right: 15px;border: 1px solid #222; max-width: 50px; text-align: center;}
+.checkout .steps {background: #ccc;padding: 15px 19px;color: #fff;border-radius: 50%;font-size: 19px;margin-right: 15%;}
+.checkout .active{background-color: $success;}
+.checkout .line {position: relative;z-index: 1;}
+.checkout .line::before{border-top: 2px solid #dfdfdf;
+content:"";
+margin: 0 auto; /* this centers the line to the full width specified */
+position: absolute; /* positioning must be absolute here, and relative positioning must be applied to the parent */
+top: 50%; left: 0; right: 0; bottom: 0;
+width: 95%;
+z-index: -1;}
+
+.no-title {background-color: #04a89d;color: #fff;height: 95px;position: relative;}
+.orange-banner {background-color: $orange;color: #fff;position: absolute;font-size: 26px;padding: 20px;top: 50px;}

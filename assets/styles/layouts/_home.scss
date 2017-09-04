@@ -1,0 +1,92 @@
+
+#content {
+  padding: 50px 20px;
+  .inner {
+    border: 1px solid #ccc;
+    padding: 20px 46px;
+
+  }
+
+  .radio {
+    display: inline-block;
+  }
+}
+
+h2 {
+  color: $orange;
+  font-size: 24px;
+}
+
+hr {
+  color: $grey;
+  border-top: 1px solid;
+}
+
+@media screen and (min-width: $screen-lg) {
+  .navbar-header {
+    .navbar-form {
+      margin-right: 20px;
+    }
+  }
+  .basket {
+    img {
+      margin-right: 25px;
+    }
+    .login {
+      padding: 5px 67px;
+    }
+  }
+  #dashboard {
+    .oferta-list {
+      a {
+        font-size: 14px;
+      }
+    }
+  }
+  #content {
+    .ofertas {
+      width: 23%;
+    }
+  }
+
+  #footer {
+    .middle-footer {
+      .imgs {
+        padding-right: 50px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $screen-lg) {
+  #footer {
+    .middle-footer {
+      .cart {
+        width: 300px;
+        height: 42px;
+      }
+      .certs {
+        width: 150px;
+        height: 43px;
+      }
+
+      .bloc-1 {
+        width: 30%;
+      }
+      .bloc-2 {
+        width: 18%;
+      }
+      #name, #email {
+        width: 33%;
+      }
+    }
+  }
+}
+
+@media (max-width: $screen-xs-max) {
+  #dashboard {
+    h1 {
+      margin-top: ($grid-gutter-width * 2);
+    }
+  }
+}

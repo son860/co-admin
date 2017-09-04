@@ -1,0 +1,26 @@
+.btn-success {
+  background: $success;
+
+}
+.btn-danger {
+  background: $danger;
+}
+
+.btn {
+  border-radius: 0;
+}
+
+.table>thead>tr>th {
+    vertical-align: bottom;
+    border-bottom: 0;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+  border-top: 0;
+  border-bottom: 1px solid #ddd;
+  vertical-align: middle;
+  padding: 20px 0;
+}
+.table>caption+thead>tr:first-child>td, .table>caption+thead>tr:first-child>th, .table>colgroup+thead>tr:first-child>td, .table>colgroup+thead>tr:first-child>th, .table>thead:first-child>tr:first-child>td, .table>thead:first-child>tr:first-child>th {
+  border-bottom: 0;
+}

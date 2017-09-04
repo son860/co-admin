@@ -1,0 +1,23 @@
+#publicidade {
+  .btn-voltar {
+    background-color: $orange;
+    border: 1px solid $btn-danger-bg;
+    padding: 5px 41px;
+    font-size: 18px;
+  }
+
+  .informations {
+    .buttons {
+      text-align: right;
+    }
+  }
+}
+
+
+@media (min-width: $screen-xs-max) {
+  #publicidade {
+    .btn-table {
+      width: 15%;
+    }
+  }
+}

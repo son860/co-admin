@@ -1,0 +1,72 @@
+.col-ofertas {
+  border: 1px solid #ddd;
+  padding: 60px 30px;
+  .ofertas-header {
+    .header-left, .header-right {
+      padding: 30px 15px 40px;
+    }
+    .header-left {
+      text-align: left;
+      .content-title {
+        margin: 0 0 20px;
+      }
+    }
+    .header-right {
+      text-align: right;
+    }
+  }
+  .oferta {
+    margin-bottom: 30px;
+    text-align: center;
+    position: relative;
+    img {
+      margin-bottom: 40px;
+    }
+    p {
+      margin-bottom: 15px;
+    }
+    .desconto-wrapper {
+      position: absolute;
+      width: 60px;
+      padding: 9px 0;
+      background-color: red;
+      right: 0;
+      bottom: 100px;
+      .desconto {
+        color: #fff;
+        font-size: 24px;
+        font-weight: bold;
+        small {
+          font-size: 6px;
+          display: block;
+        }
+      }
+    }
+    .btn-mais {
+      width: 100%;
+      display: block;
+      height: 40px;
+      line-height: 40px;
+      color: #fff;
+      text-transform: uppercase;
+      background: $green;
+      text-align: center;
+      text-decoration: none;
+      font-weight: bold;
+      &:hover {
+        background: darken($green, 5%);
+      }
+    }
+  }
+}
+
+@media (max-width: $screen-xs-max) {
+  .col-ofertas {
+    padding: 30px;
+    .ofertas-header {
+      .header-right {
+        padding: 0 15px 40px;
+      }
+    }
+  }
+}
