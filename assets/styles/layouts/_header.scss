@@ -73,10 +73,10 @@
 }
 
 .form-control {
-  width: 40% !important;
+
   display: inline-block;
   border-radius: 0;
-
+  // width: auto;
 }
 
 .search {
@@ -143,19 +143,25 @@
   }
 }
 
-.list-sair {
-  margin-left: 30%;
-}
 
 .sair {
   border: 1px solid;
-  line-height: 2 !important;
-  margin-top: 7px;
+  margin: 20px 0;
+  float: right;
+  vertical-align: middle;
   &:hover {
     color: #fff;
   }
 }
 
+.inner {
+  &:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+  }
+}
 
 @media screen and (min-width: $screen-lg) {
   .my-list {
@@ -174,7 +180,17 @@
   margin-top: 85px;
 }
 
+.offset {
+  margin-left: 16.6666666667%;
+}
+
 @media (max-width: 1024px) {
+  .offset {
+    margin-left: 8.3333333333%;
+  }
+  .sair {
+    width: 100%;
+  }
   .navbar-inverse {
     .navbar-toggle {
       height: 60px;

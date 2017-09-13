@@ -9,7 +9,7 @@
   <title>Painel Administrativo</title>
   <link href="../dist/styles/main.css" rel="stylesheet">
 </head>
-<body class="painel-administrativo">
+<body class="painel-administrativo nova">
 <header>
 
 <div class="container-fluid">
@@ -24,7 +24,7 @@
       </button>
       <a class="navbar-brand" href="#"><img src="../assets/images/classiofertas_sem_fundo.png" alt="" style="padding-left: 37px;"></a>
       </div>
-    </div>
+
   </nav>
 </div>
 </div>
@@ -35,11 +35,11 @@
       <div class="row title">
         <div class="col-sm-8 col-sm-offset-2 inner">
           <h1>PAINEL ADMINISTRATIVO</h1>
-          <a href="" class="btn sair">SAIR</a>
+          <a href="" class=" btn sair">SAIR</a>
         </div>
       </div>
       <div class="row my-list navbar-collapse collapse">
-        <div class="col-sm-10 col-sm-offset-2">
+        <div class="col-sm-10 offset">
           <ul class="clearfix">
             <li><a href="minha-conta.html">Minha Conta</a></li>
             <li><a href="categorias.html">Categorias</a></li>
@@ -60,54 +60,42 @@
       <div class="row content">
         <div class="col-md-8 col-md-offset-2 col-xs-12 inner">
           <form action="" class="">
-            <div class="row">
-              <div class="col-xs-12 content-title">
-                <h2>CLIENTE XPTO</h2>
+              <div class="content-title">
+                <h2 class="text-left">ADICIONAR CATEGORIA</h2>
               </div>
-                <div class="col-md-4 col-lg-3">
-                  <img src="../assets/images/grey.png" alt="" class="img-responsive">
-                </div>
-                <div class="col-md-8 col-lg-8 informations">
-                  <label for="">EMPRESA XPTO</label>
-                  <br>
-                  <label for="">CNPJ N</label>
-                  <br>
-                  <label for="">Inscrição Estadual</label>
-                  <br>
-                  <label for="">Inscrição Municipal</label>
-                  <br>
-                  <label for="">CEP n</label>
-                  <br>
-                  <label for="">Endereço</label>
-                  <br>
-                  <label for="">Cidade / Estado</label>
-                  <br>
-                  <label for="">Socio Proprietario</label>
-                  <br>
-                  <label for="">Contato: </label>
-                  <br>
-                </div>
-                <div class="col-md-12">
-                  <hr>
-                </div>
-              </div>
-              <!-- /MEUS DADOS -->
+                <HR></HR>
+                <div class="row">
+                  <div class="col-xs-12" style="margin:50px 0;">
+                    <div class="dentro">
+                      <form action="">
+                        <div class="form-group">
+                          <select class="form-control" >
+                            <option disabled selected >Categoria:</option>
+                            <option>Ketchup</option>
+                            <option>Relish</option>
+                          </select>
+                        </div>
+                        <div class="form-group">
+                          <select class="form-control" >
+                            <option  disabled selected >Sub Categoria:</option>
+                            <option>Ketchup</option>
+                            <option>Relish</option>
+                          </select>
+                        </div>
+                        <div class="form-group">
+                          <textarea name="name" rows="8" cols="80" class="form-control">
 
-
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="buttons">
-                    <button class="btn btn-lg btn-success btn-dados">ALTERAR</button>
-                    <button class="btn btn-lg btn-danger btn-dados">REMOVER</button>
-                  </div>
-                </div>
-              </div>
-              <!-- BUTTONS -->
-            </form>
-          </div>
+                          </textarea>
+                        </div>
+                        <div class="form-group text-center">
+                          <button class="btn btn-lg btn-success">ADICIONAR CATEGORIA</button>
+                        </div>
+                      </form>
+                    </div>
+                <!-- /categoria -->
         </div>
       </div>
-    </div>
+
   </section>
 <!-- /CONTENT -->
 

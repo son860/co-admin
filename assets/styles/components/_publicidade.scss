@@ -1,10 +1,15 @@
-#publicidade {
-  .btn-voltar {
-    background-color: $orange;
-    border: 1px solid $btn-danger-bg;
-    padding: 5px 41px;
-    font-size: 18px;
+.btn-orange {
+  background-color: $orange;
+  border: 1px solid $btn-danger-bg;
+  padding: 5px 41px;
+  font-size: 18px;
+  &:hover {
+    background-color: lighten($orange, 1%);
+    border: 1px solid $orange;
   }
+}
+
+#publicidade {
 
   .informations {
     .buttons {
@@ -13,7 +18,13 @@
   }
 }
 
-
+.pub-icon {
+  font-size: 45px;
+}
+.pub-row {
+  border-bottom: 1px solid rgba(0,0,0,0.5);
+  padding: 10px;
+}
 @media (min-width: $screen-xs-max) {
   #publicidade {
     .btn-table {

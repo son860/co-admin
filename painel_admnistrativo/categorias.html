@@ -6,10 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>Publicidade | Painel Administrativo</title>
+  <title>Categorias | Painel Administrativo</title>
   <link href="../dist/styles/main.css" rel="stylesheet">
 </head>
-<body id="publicidade">
+<body id="categorias">
 <header>
 
 <div class="container-fluid">
@@ -35,7 +35,7 @@
       <div class="row title">
         <div class="col-sm-8 col-sm-offset-2 inner">
           <h1>PAINEL ADMINISTRATIVO</h1>
-          <a href="" class="btn sair">SAIR</a>
+          <a href="" class=" btn sair">SAIR</a>
         </div>
       </div>
       <div class="row my-list navbar-collapse collapse">
@@ -49,7 +49,6 @@
             <li><a href="administradores.html">Administradores</a></li>
             <li><a href="clientes.html">Clientes</a></li>
             <li><a href="ofertas.html">Ofertas</a></li>
-
           </ul>
         </div>
       </div>
@@ -59,15 +58,17 @@
   <section id="content">
     <div class="container-fluid">
       <div class="row content">
-        <div class="col-md-8 col-md-offset-2 col-xs-12 inner">
+        <div class="col-md-10 col-md-offset-1 col-xs-12 inner">
           <form action="" class="">
             <div class="row">
-              <div class="col-sm-6 content-title">
-                  <h2>PUBLICIDADE</h2>
+              <div class="col-sm-4 content-title">
+                  <h2>CATEGORIAS</h2>
                 </div>
 
-                <div class="col-sm-6 text-right">
-                  <a href="" class="btn btn-success btn-orange orange">VOLTAR</a>
+                <div class="col-sm-8 text-right" style="margin-top:15px;">
+                  <input type="text" placeholder="BUSCAR CATEGORIAS" style="padding: 5px;">
+                  <a href="adicionar-categoria.html" class="btn btn-success">ADICIONAR CATEGORIA</a>
+                  <a href="" class="btn btn-success btn-orange">VOLTAR</a>
                 </div>
                 <div class="col-md-12">
                   <hr>
@@ -79,7 +80,7 @@
                     <table class="table">
                       <thead>
                         <tr>
-                          <th>TIPO</th>
+
                           <th>CATEGORIA</th>
                           <th>SUBCATEGORIA</th>
                           <th></th>
@@ -88,33 +89,30 @@
                       </thead>
                       <tbody>
                         <tr>
-                          <td>Banner</td>
+
                           <td>Restaurantes</td>
                           <td>Japonesa</td>
 
-                          <td class="btn-table"><a href="alterar-remover-publicidade.html" class="btn btn-lg btn-success btn-dados">ALTERAR</a></td>
-
+                          <td class="btn-table one-width"><button class="btn btn-lg btn-success btn-dados">ALTERAR</button></td>
+                          <td class="btn-table one-width"><button class="btn btn-lg btn-danger btn-dados">REMOVER</button></td>
 
                         </tr>
                         <tr>
-                          <td>Banner</td>
+
                           <td>Roupas</td>
                           <td>Japonesa</td>
-                          <td class="btn-table"><a href="alterar-remover-publicidade.html" class="btn btn-lg btn-success btn-dados">ALTERAR</a></td>
-
+                          <td class="btn-table one-width"><button class="btn btn-lg btn-success btn-dados">ALTERAR</button></td>
+                          <td class="btn-table one-width"><button class="btn btn-lg btn-danger btn-dados">REMOVER</button></td>
                         </tr>
                         <tr>
-                          <td>Banner Animado</td>
+
                           <td>Bares</td>
                           <td>Japonesa</td>
-                          <td class="btn-table"><a href="alterar-remover-publicidade.html" class="btn btn-lg btn-success btn-dados">ALTERAR</a></td>
-
+                          <td class="btn-table one-width"><button class="btn btn-lg btn-success btn-dados">ALTERAR</button></td>
+                          <td class="btn-table one-width"><button class="btn btn-lg btn-danger btn-dados">REMOVER</button></td>
                         </tr>
                       </tbody>
                     </table>
-                    <div class="col-xs-12 text-center" style="margin-top:20px;">
-                      <a href="adicionar-publicidade.html" class="btn btn-lg btn-success btn-dados">ADICIONAR PUBLICIDADE</a>
-                    </div>
                     </div>
                   </div>
               </div>

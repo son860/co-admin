@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Cadastrar Oferta | Painel do Anunciante</title>
+  <link href="../dist/styles/main.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body id="especificacoes-de-midia">
+<header>
+
+<div class="container-fluid">
+  <div class="row row-no-padding">
+  <nav class="navbar navbar-inverse">
+    <div class="navbar-header">
+      <div class="col-md-5 col-lg-6">
+      <button type="button" class="navbar-toggle navbar-left" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img src="../assets/images/classiofertas_sem_fundo.png" alt="" style="padding-left: 37px;"></a>
+      </div>
+
+    </div>
+  </nav>
+</div>
+</div>
+</header>
+
+  <section id="dashboard">
+    <div class="container-fluid">
+      <div class="row title">
+        <div class="col-sm-8 col-sm-offset-2 inner">
+          <h1>ANUNCIANTE</h1>
+        </div>
+      </div>
+      <div class="row my-list navbar-collapse collapse">
+        <div class="col-sm-10 col-sm-offset-2">
+          <ul class="clearfix">
+            <li><a href="minha-conta.html">Minha Conta</a></li>
+            <li><a href="minhas-financas.html">Minhas Finanças</a></li>
+            <li><a href="meus-pedidos.html">Meus Pedidos</a></li>
+            <li><a href="cadastrar-oferta.html">Cadastrar Oferta</a></li>
+            <li><a href="oferta-relampago.html">Oferta Relâmpago</a></li>
+            <li><a href="informacoes-da-plataforma.html">Informações da Plataforma</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="content">
+    <div class="container">
+      <div class="row">
+        <div class="col-ofertas">
+          <div class="ofertas-wrapper">
+            <div class="ofertas-header clearfix">
+              <div class="header-left col-sm-8">
+                <h2 class="content-title">CADASTRAR OFERTA</h2>
+
+              </div>
+              <div class="header-right col-sm-4">
+                <label href="#" class="btn-anuncie btn btn-lg" style="border:1px solid;">ID: AN3000-857383</label>
+              </div>
+              <form class="form-horizontal">
+
+                <div class="form-group">
+                  <label class="control-label col-sm-2" for="">Codigo da Oferta:</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="control-label col-sm-2" for="">Titulo da Oferta:</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="control-label col-sm-2" for="">Descrição da Oferta:</label>
+                  <div class="col-sm-10">
+
+                    <textarea class="form-control" name="name" rows="8" cols="80"></textarea>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="control-label col-sm-2" for="">Upload de Imagens:</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="" id="">
+                    <button id="myBtn" class="btn btn-success"type="button" name="button">UPLOAD</button>
+                    <button id="myBtn" class="btn btn-success"type="button" name="button">EDITAR FOTOS</button>
+                    <a href="#post-comment" data-toggle="modal" class="btn btn-small"> Post Comment </a>
+
+                  </div>
+                </div>
+
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+
+                  <!-- Modal content -->
+                  <div class="modal-content cad-upload">
+                    <span class="close">&times;</span>
+                    <div class="row">
+
+                        <div class="col-md-12">
+                          <h3 class="text-left">Editar fotos</h3>
+                          <hr>
+
+                        </div>
+                        <div class="col-md-4 col-lg-3 text-center">
+                            <img src="../assets/images/grey.png" alt="">
+                            <p>Tipo: Banner Slider</p>
+                            <p>Tamanho: 880x500</p>
+                        </div>
+                        <div class="col-md-4 col-lg-3 text-center">
+                            <img src="../assets/images/grey.png" alt="">
+                            <p>Tipo: Banner Slider</p>
+                            <p>Tamanho> 1440x360 </p>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+
+
+
+
+                <div class="form-group">
+                  <label class="control-label col-sm-2" for="">Valor da Oferta:</label>
+                  <div class="col-sm-10">
+
+                    <input type="text" class="form-control" id="">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="control-label col-sm-2" for="">Especificações da Oferta:</label>
+                  <div class="col-sm-10">
+
+                    <textarea class="form-control" name="name" rows="8" cols="80"></textarea>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="control-label col-sm-2" for="">Regras de Uso:</label>
+                  <div class="col-sm-10">
+
+                    <textarea class="form-control" name="name" rows="8" cols="80"></textarea>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="control-label col-sm-2" for="">Oferta valida por quantas pessoas:</label>
+                  <div class="col-sm-10">
+                    <input type="text" name="" value="">
+
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="control-label col-sm-2" for="">Tempo válido da oferta:</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="control-label col-sm-2" for="">Tempo válido da oferta:</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="control-label col-sm-2" for="">CNPJ:</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="control-label col-sm-2" for="">Endereço:</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="control-label col-sm-2" for="">Horario de Funcionamento:</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="control-label col-sm-2" for="">Informações de Contato:</label>
+                  <div class="col-sm-10">
+                    <textarea class="form-control" name="name" rows="8" cols="80"></textarea>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="control-label col-sm-2" for="">Se 1 pessoa (R$):</label>
+                  <div class="col-sm-6">
+                    <input type="text" class="form-control" id="">
+                  </div>
+                  <label class="control-label col-sm-2" for="">Desconto:</label>
+                  <div class="col-sm-2">
+                    <input type="text" class="form-control" id="">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="control-label col-sm-2" for="">Se 2 pessoa (R$):</label>
+                  <div class="col-sm-6">
+                    <input type="text" class="form-control" id="">
+                  </div>
+                  <label class="control-label col-sm-2" for="">Desconto:</label>
+                  <div class="col-sm-2">
+                    <input type="text" class="form-control" id="">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="control-label col-sm-2" for="">Se 4 pessoa (R$):</label>
+                  <div class="col-sm-6">
+                    <input type="text" class="form-control" id="">
+                  </div>
+                  <label class="control-label col-sm-2" for="">Desconto:</label>
+                  <div class="col-sm-2">
+                    <input type="text" class="form-control" id="">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="control-label col-sm-2" for="">Informe a Categoria:</label>
+                  <div class="col-sm-10">
+                    <select class="form-control" name="">
+                      <option value="">cat 1</option>
+                      <option value="">cat 2</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="control-label col-sm-2" for="">Informe a Sub Categoria:</label>
+                  <div class="col-sm-10">
+                    <select class="form-control" name="">
+                      <option value="">cat 1</option>
+                      <option value="">cat 2</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="col-sm-offset-2 col-sm-10 text-center">
+                    <button type="submit" class="btn btn-success">ENVIAR</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- /CONTENT -->
+
+
+
+<footer id="footer">
+  <div class="text-center bottom-footer">
+    <span>Classi Ofertas 2017 LTDA Todos os direitos Reservados</span>
+  </div>
+</footer>
+
+<script src="../dist/scripts/jquery.js" type="application/javascript"></script>
+<script src="../dist/scripts/main.js" type="application/javascript"></script>
+
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+var modal2 = document.getElementById('myModa2');
+
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+var btn2 = document.getElementById("myBtn2");
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+
+</script>
+</body>
+</html>

@@ -22,7 +22,11 @@ hr {
   border-top: 1px solid;
 }
 
+.nav-tabs>li>a{
+  background-color: grey;
+}
 @media screen and (min-width: $screen-lg) {
+
   .navbar-header {
     .navbar-form {
       margin-right: 20px;
@@ -59,6 +63,7 @@ hr {
 }
 
 @media screen and (max-width: $screen-lg) {
+
   #footer {
     .middle-footer {
       .cart {
@@ -89,4 +94,29 @@ hr {
       margin-top: ($grid-gutter-width * 2);
     }
   }
+}
+
+
+@media (min-width: 768px){
+  .one-width {
+    width: 1%;
+  }
+  .navbar-form .input-group>.form-control {
+      width: auto;
+  }
+}
+
+
+.center-table {
+
+    tr {
+      td, th {
+        text-align: center;
+      }
+    }
+}
+
+.cad-upload {
+  background-color: #fff !important;
+  color: #222 !important;
 }
