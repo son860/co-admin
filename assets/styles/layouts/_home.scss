@@ -120,3 +120,45 @@ hr {
   background-color: #fff !important;
   color: #222 !important;
 }
+
+
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.inputfile + label {
+
+
+    color: white;
+    background-color: #5cb85c;
+    display: inline-block;
+}
+
+
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+    background-color: #5cb85c;
+}
+
+.inputfile + label {
+	cursor: pointer; /* "hand" cursor */
+}
+
+.inputfile:focus + label {
+	outline: 1px dotted #000;
+	outline: -webkit-focus-ring-color auto 5px;
+}
+
+
+
+.btn-img {
+  background: transparent;
+  border: 0;
+  font-size: 22px;
+}
